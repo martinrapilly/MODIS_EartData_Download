@@ -1,4 +1,4 @@
-# MODIS_EartData_Download
+# MODIS_EarthData_Download
 A very short script to download MODIS data with a list of EarthData links and a webbrowser.
 
 You first need to go to the earthdata website (https://search.earthdata.nasa.gov/search), register or log in and search for satellite imagery. 
