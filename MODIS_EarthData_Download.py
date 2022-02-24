@@ -25,7 +25,7 @@ for url in open('E:\...\MOD09A1_links_earthdata.txt'):
 ##if the file hasn't been downloaded, starts the download and waits until completion before downloading next file
         cntr=0
 ##enter here the download folder path
-        while not os.path.exists ("D:/Users/mrapilly/Downloads/"+ url[-45:]):
+        while not os.path.exists ("D:/.../Downloads/"+ url[-45:]):
             time.sleep(1)
             print str(cntr)
             cntr=cntr+1
